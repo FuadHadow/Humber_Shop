@@ -6,8 +6,8 @@ import { FilterPipe } from '../../filter.pipe';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
-  imports: [CommonModule, FilterPipe],
+  //standalone: true,
+  //imports: [CommonModule, FilterPipe],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

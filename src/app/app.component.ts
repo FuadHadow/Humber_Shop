@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core'; 
+import { Component, OnInit,ElementRef, ViewChild } from '@angular/core'; 
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./component/header/header.component";
 import { CartComponent } from './component/cart/cart.component';  
 import { HomeComponent } from './component/home/home.component'; 
 import { ApiService } from './service/api.service'; 
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';  
+ 
 
 
 @Component({
@@ -18,4 +19,6 @@ import { FormsModule } from '@angular/forms';
 export class AppComponent {
   
   title = 'Humber-Shop';
+
+  
 }
